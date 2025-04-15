@@ -5,7 +5,7 @@ const axios = require('axios');
 const phoneNumberId = process.env.PHONE_NUMBER_ID;
 const accessToken = process.env.ACCESS_TOKEN;
 const pin = process.env.PIN;
-const certificate = `CmMKHwi92Nn3+KXTAxIGZW50OndhIgZJbmdlbWVQwrGHvgYaQHtxrkrbwmc97M9zwSCv8qCF+MVCyADktY/jP+P4eu6jgiHfR+32pGMh/odSRDd7a/iX2C3J0qz/RwnJI4VH3w0SMG0/N+DamrS08Fqzt5ylbCiTWOTiWsf2JF4OMM8zOtxeKbjpQ0MdMLfMgw3Qs/38Fw==`;
+const certificate = process.env.CERTIFICATE;
 const method = 'sms'; // También 'voice'
 
 // Endpoint de registro
